@@ -47,4 +47,3 @@ app.*.map.json
 
 #private
 lib/private.dart
-android/app/src/main/AndroidManifest.xml
