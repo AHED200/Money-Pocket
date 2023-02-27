@@ -1,6 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
           package="com.example.money_bank">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
             android:label="Money Pocket"
             android:icon="@mipmap/launcher_icon"
@@ -40,11 +42,8 @@
         <meta-data
                 android:name="flutterEmbedding"
                 android:value="2"/>
-        
+
 
 
     </application>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.INTERNET"/>
-
 </manifest>
