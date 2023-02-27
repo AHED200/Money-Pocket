@@ -44,4 +44,7 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+#private
 lib/private.dart
+android/app/src/main/AndroidManifest.xml
