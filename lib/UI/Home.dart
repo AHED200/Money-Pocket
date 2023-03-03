@@ -152,7 +152,6 @@ class HomeWidget extends State<Home> {
     return Scaffold(
       drawer: CustomDrawer(),
       appBar: AppBar(
-        titleSpacing: 33,
         centerTitle: true,
         shadowColor: Colors.transparent,
         title: Constant.pageTitle(Language.language['title']),
@@ -170,8 +169,13 @@ class HomeWidget extends State<Home> {
                   });
             },
           ),
-          IconButton(
-            icon: Icon(Icons.add, size: 30,),
+          TextButton(
+            child: Row(
+              children: [
+                Icon(Icons.add, size: 30, color: Colors.black,),
+                intersIsReady?Text("AD", style: TextStyle(color: Colors.black),):Text("")
+              ],
+            ),
             onPressed: () {
               try{
                 if(intersIsReady){
