@@ -1,16 +1,15 @@
-# money_bank
 
-A new Flutter project.
+# Money Pocket
 
-## Getting Started
+The idea of the app is to create financial goals and save them locally in the app. It makes tracking financial goals easier.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies used
+![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=flat&logo=dart&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=flat&logo=Flutter&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=flat&logo=sqlite&logoColor=white)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Screenshots
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![App Screenshot](./screenshots/Screenshot_1628445444.png)
+![App Screenshot](./screenshots/Screenshot_1628445637.png)
+![App Screenshot](./screenshots/Screenshot_1628444938.png)
+
